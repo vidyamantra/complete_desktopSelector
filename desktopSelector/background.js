@@ -20,6 +20,11 @@ chrome.runtime.onConnect.addListener(function (channel) {
             message.type = 'canceledGetScreen';
             channel.postMessage(message);
             break;
+            
+            case 'isInstalled':
+			message.type = 'yes';
+            channel.postMessage(message);
+            break;
         }
     });
 });

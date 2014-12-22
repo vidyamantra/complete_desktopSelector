@@ -1,7 +1,7 @@
 {
   "name": "Desktop Selector",
   "description": "Use to desktop selector for sharing the screens",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "minimum_chrome_version": "34",
   "icons": {
