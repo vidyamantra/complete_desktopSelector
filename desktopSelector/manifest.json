@@ -14,6 +14,6 @@
   },
   "content_scripts": [ {
     "js": [ "content.js" ],
-    "matches": [ "https://*vidya.io/*" ]
+    "matches": [ "https://*.vidya.io/*" ]
   }]
 }
