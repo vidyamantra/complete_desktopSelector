@@ -1,4 +1,4 @@
-var domains = ["l.vidya.io"];
+var domains = ["*.vidya.io"];
 var addon_domains = []; // list of domains the addon added
 var PREF = "media.getusermedia.screensharing.allowed_domains";
 
